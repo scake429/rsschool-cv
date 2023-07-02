@@ -25,5 +25,10 @@ I have work experience in accounting, support 1C and in testing at Cypress.
     cy.addBook('MyBook3', 'About JS');
     cy.logOut();
 ``` 
+## Education:
+Saratov Chernyshevsky State University, department of Optics and Spectroscopy, Physics major.  
+## Languages:
+* Russian - Native
+* English - A1 (Beginner)
 
 
