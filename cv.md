@@ -3,7 +3,7 @@ ___
 # Natalya Aristarhova
 ![cv_1 foto][foto]
 
-[foto]: images/cv_1_foto_.jpg "Foto for CV1"  
+[foto]: assets/img/cv_1_foto_.jpg "Foto for CV1"  
 ## Contact information:
 
 * Address: Russia, Saratov, ul. Krymskaya, 21, kv.14a
