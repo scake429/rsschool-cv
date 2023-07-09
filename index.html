@@ -2,13 +2,93 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>For future CV</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV#3 Cross-Check</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
-            <h1>RS School</h1>
-            <p>Exercise CV#2</p>
-        </div>
+        <header class="header" id="header">
+            <nav class="nav_menu">
+                <ul class="nav_list">
+                    <li>
+                        <a class="nav_ref" href="#contact">Contact information</a>
+                    </li>
+                    <li>
+                        <a class="nav_ref" href="#about">About me</a>
+                    </li>
+                    <li>
+                        <a class="nav_ref" href="#code">Code Example</a>
+                    </li>
+                    <li>
+                        <a class="nav_ref" href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a class="nav_ref" href="#languages">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="section section_name">
+                <div>
+                    <img class="img_photo" src="assets/img/photo_Aristarhova.jpg" alt="Photo AristarhovaNN">
+                </div>
+                <div class="section_name_text">
+                    <h1>Natalya Aristarhova</h1>
+                    <p class="section_name_slogan">I also dance.</p>
+                </div>    
+            </section>
+            <section class="section section_contact">
+                <h2 id="contact">Contact information</h2>
+                <ul class="section_list">
+                    <li>Address: Russia, Saratov, ul. Krymskaya, 21, kv.14a</li>
+                    <li>Phone: +79372418738</li>
+                    <li>E-mail:
+                        <a href="mailto:scake429@gmail.com">scake429@gmail.com</a>
+                    </li>
+                    <li>GitHub:
+                        <a href="https://github.com/scake429">scake429</a></li>
+                </ul>
+            </section>
+            <section class="section section_about">
+                <h2 id="about">About me</h2>
+                <p>Just trying to get into IT a little bit&rpar;<br>
+                    I have work experience in accounting, support 1C and in testing at Cypress. I also dance.
+                </p>
+            </section>
+            <section class="section section_code">
+                <h2 id="code">Code Example</h2>
+                <pre class="code">
+                    <code>
+        cy.loginBooksApp(mailTest_1, passTest_1); 
+        cy.get('a[href="/favorites"]').as('favorites');
+        cy.addBook('MyBook1', 'About Cypress');
+        cy.addBook('MyBook2', 'About Netology');
+        cy.addBook('MyBook3', 'About JS');
+        cy.logOut();
+                    </code>
+                </pre>
+            </section>
+            <section class="section section_education">
+                <h2 id="education">Education</h2>
+                <p>Saratov Chernyshevsky State University, department of Optics and Spectroscopy, Physics major.</p>
+            </section>
+            <section class="section section_languages">
+                <h2 id="languages">Languages</h2>
+                <ul class="section_list">
+                    <li>Russian - Native</li>
+                    <li>English - A1 (Beginner)</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <a class="footer_link" href="https://rs.school/js/" target="_blank">
+                <img src="assets/svg/rs_school_js_white_logo.svg" alt="Logo RS School" width="96" height="45">
+            </a>
+            <p>&copy; 2023</p>
+            <a class="footer_link" href="https://github.com/scake429" target="_blank">
+                <img src="assets/svg/github_white_logo.svg" alt="Logo GitHub" width="46" height="45">
+            </a>
+        </footer>
     </body>
 </html>
